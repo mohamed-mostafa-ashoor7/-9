@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+body { background: #0d2f42; color: white; font-family: 'Cairo', sans-serif; margin: 0; padding: 0; }
+.header-top { background: #00d1d1; padding: 10px 20px; text-align: left; color: #0d2f42; font-weight: bold; }
+.container { padding: 15px; max-width: 900px; margin: auto; }
+.card-main { background: #00d1d1; color: #0d2f42; border-radius: 12px; padding: 25px; text-align: center; margin-bottom: 15px; }
+.card-main h1 { margin: 0; font-size: 26px; }
+.card-form { background: #13455c; border-radius: 12px; padding: 20px; }
+.title { text-align: right; font-weight: bold; font-size: 18px; margin-bottom: 5px; }
+.sub { text-align: right; color: #8ab4c5; font-size: 12px; margin-bottom: 20px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+label { display: block; text-align: right; font-size: 13px; color: #8ab4c5; margin-bottom: 5px; }
+input, select { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #1a5a77; background: #0d2f42; color: white; box-sizing: border-box; }
+.btns { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 20px; }
+button { padding: 10px 18px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; font-family: 'Cairo'; }
+.btn-save { background: #1abc9c; color: white; }
+.btn-show { background: #3498db; color: white; }
+.btn-exp { background: #f39c12; color: white; }
+.btn-qr { background: #e67e22; color: white; }
+.total-box { margin-top: 15px; text-align: right; color: #1abc9c; font-weight: bold; font-size: 18px; }
+table { width: 100%; background: white; color: black; border-radius: 10px; margin-top: 20px; border-collapse: collapse; display: none; overflow: hidden; }
+th, td { padding: 12px; text-align: center; border-bottom: 1px solid #eee; font-size: 13px; }
+th { background: #f5f5f5; }
+.del { background: #e74c3c; color: white; padding: 5px 10px; font-size: 12px; border-radius: 6px; border: none; cursor: pointer; }
+#qrcode { background: white; padding: 15px; border-radius: 10px; margin-top: 15px; display: none; width: fit-content; }
